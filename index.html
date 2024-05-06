@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavaleiros de Ouro</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modal.css">
+</head>
+<body>
+    <header>
+        <h1>Conheça os doze Cavaleiros de Ouro de Athena do século XX</h1>
+    </header>
+    <main>
+        <section id="centro">
+                <label for="nome-cavaleiro">Cavaleiro:</label>
+                <select name="cavaleiros" id="nome-cavaleiro">
+                    <option value=" "> </option>
+                    <option id="mu" value="aries">Mú de Áries</option>
+                    <option id="aldebaran" value="touro">Aldebaran de Touro</option>
+                    <option id="saga" value="gemeos">Saga de Gêmeos</option>
+                    <option id="mascara-da-morte" value="cancer">Máscara da Morte de Câncer</option>
+                    <option id="aioria" value="leao">Aiolia de Leão</option>
+                    <option id="shaka" value="virgem">Shaka de Virgem</option>
+                    <option id="doko" value="libra">Dohko de Libra</option>
+                    <option id="miro" value="escorpiao">Milo de Escorpião</option>
+                    <option id="aioros" value="sagitario">Aiolos de Sagitário</option>
+                    <option id="shura" value="capricornio">Shura de Capricórnio</option>
+                    <option id="camus" value="aquario">Câmus de Aquário</option>
+                    <option id="afrodite" value="peixes">Afrodite de Peixes</option>
+                </select>
+                <br>
+                <button id="botao">Buscar</button>
+                <footer>  
+                    <p>Site criado por <a href="https://github.com/GiovanniNoda" target="_blank">Giovanni Noda</a> Desenvolvedor Front End.</p>
+                </footer>
+        </section>
+        <div id="overlay"></div>
+        <div class="modal" id="modal"></div> 
+    </main>
+  
+    <script src="script.js"></script>
+</body>
+</html>
