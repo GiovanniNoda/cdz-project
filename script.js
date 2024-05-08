@@ -46,6 +46,9 @@ function visualizar(cavaleiro) {
     case 'peixes':
         modal.innerHTML = ' <h2>Afrodite de Peixes</h2> <div id="modal-body"> <img src="imagem/afrodite.png" alt="Afrodite de Peixes" id="afrodite" class="geral"> <div id="div-info"> <div id="div-sobre"> <h3>Sobre:</h3> <p>Afrodite de Peixes, responsável por defender a última casa do Santuário, também se tornou cavaleiro aos sete anos de idade. Afrodite era considerado o cavaleiro mais belo do exército e Athena, era conhecido por sua vaidade e seu orgulho exarcebado. Seus ataques são baseados em três tipos de rosas diferentes, as vermelhas que são venenosas, as pretas que são como piranhas, seus espinhos devoram tudo o que tocam, e a branca que é arrermessada no coração e suga todo o sangue do inimigo, tingindo as pétalas da rosa de vermelho. O cavaleiro de Peixes disvirtuou-se de sua missão como cavaleiro de Athena, pois acreditava que a paz e a ordem deviam ser estabelecidas no mundo a qualquer custo, e por isso seguiu o Grande Mestre, mesmo sabendo de sua índole ruim. Afrodite não teve grandes feitos na série, e apenas assassinou covardemente Albiore de Cefeu, mestre de Shun de Andrômeda. Afrodite foi derrotado e morto por Shun de durante a travessia dos cinco cavaleiros de bronze protagonistas pelas 12 casas. </p> </div> <div id="div-golpes"> <h3>Principais Golpes:</h3> <ul id="peixes"> <li>Rosas Diabólicas Reais</li> <li>Rosas Piranhas</li> <li>Rosas Sangrentas</li> </ul> </div> <audio preload="metadata" autoplay> <source src="audio/afrodite.mp3" type="audio/mpeg"> Seu navegador não suporta a reprodução de áudio.</audio> </div> </div>'
         break
+    case '':
+        window.alert('Esolha um Cavaleiro!')
+        return
     default:
         return
    }
