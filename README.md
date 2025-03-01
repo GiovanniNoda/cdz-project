@@ -1,4 +1,4 @@
-# projeto-cdz
- Projeto dos Cavaleiros do Zodiaco criado por mim.
+# cdz-project
+Project created at the beginning of my learning, using HTML5, CSS3 and Javascript, in it we can see concepts of modal, responsiveness and form.
  <br>
- <a href="https://giovanninoda.github.io/projeto-cdz/" target="_blank">Clique aqui para acessar o site!</a>
+ <a href="https://giovanninoda.github.io/cdz-project/" target="_blank">Click here to access the webisite!</a>
